@@ -1,0 +1,5 @@
+print('CALCULO DE SEGUNDOS')
+h = int(input('Horas: '))
+m = int(input('Minutos: '))
+s = int(input('Segundos: '))
+print(f' Total de {(h*3600) + (m*60) + s} segundos.')

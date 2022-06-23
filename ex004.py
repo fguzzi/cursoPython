@@ -1,0 +1,11 @@
+x = input('Digite algo na tela:  ')
+print('O Tipo primitivo desse valor é ', type(x))
+print('Só tem espaços? ', x.isspace())
+print('É uma letra? ', x.isalpha())
+print('Está em maiúscula? ', x.isupper())
+print('Está em minúsculas? ', x.islower())
+print('É número decimal? ', x.isdecimal())
+print('É um número? ', x.isnumeric())
+print('E alfanumérico? ', x.isalnum())
+print('Está capitalizada? ', x.istitle())
+

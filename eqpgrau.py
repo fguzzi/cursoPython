@@ -1,0 +1,7 @@
+print('-' * 26)
+print('Equação do primeiro grau, modelo ax +  b = 0')
+a = float(input('Digite a: '))
+b = float(input('Digite b: '))
+x = (b * -1) / (a)
+print('O valor de x = {}'.format(x))
+print('-' * 26)
