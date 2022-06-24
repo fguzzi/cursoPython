@@ -1,14 +1,22 @@
-def fatorial(num, b):
-    res = 1
-    if b != True:
-        for c in range(1, num + 1):
-           res = res * c
-        print(res)
-    if b == True:
-        for c in range(1, num + 1):
-            res = res * c
-            print(res)
+def fatorial(n,show=False):
+    """
+       => Calcular o fatorial de um número
+            : param n: número a ser calculado
+            : param show: (opcional) mostrar ou não a conta
+            : return: o valor do fatorial de um número n
+    """
+    f = 1
+    for c in range(n, 0, -1):
+        if show:
+            print(f' {c}  ', end=' ')
+            if c > 1:
+                print(' x ', end=' ')
+            else:
+                print(' = ', end=' ')
+        f *= c
+    return f
 
 
+print(fatorial(5, show=True))
+help(fatorial)
 
-fatorial(5, True)
