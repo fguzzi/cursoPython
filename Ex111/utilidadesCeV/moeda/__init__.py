@@ -36,6 +36,3 @@ def resumo(preco=0, taxaa=10, taxar=5):
     print('-' * 50)
     print(f' {taxaa} % de aumento: \t\t{aumentar(preco, taxaa, True)}')
     print('-' * 50)
-
-
-# usado pelos exercicios 109 / 110
